@@ -1,0 +1,57 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0%;
+  padding: 0% 0% 60px 0%;
+  background-color: aliceblue;
+}
+header{
+  background-color: #111;
+  text-align: center;
+  color: white;
+  padding: 1rem 0;
+}
+#input-section{
+  text-align: center;
+  margin-top: 20px;
+}
+#location{
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px ;
+  border-radius: 5px;
+}
+#weather-section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#weather-data {
+    margin-top: 20px;
+}
+h2 {
+    text-align: center;
+}
+.footer{
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: red;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #input-section {
+        text-align: center;
+    }
+    #location {
+        width: 90%;
+    }
+  }
